@@ -6,13 +6,13 @@ def stat_vac():
     """
     main_input_request = "Выберите тип вывода: "
     main_input_info = input(main_input_request)
-    if main_input_info != "Вакансии" and main_input_info != "Вакансии":
+    if main_input_info != "Вакансии" and main_input_info != "Cтатистика":
         print("Введён неправильный тип вывода")
         return
-    if main_input_info == "Навык":
+    if main_input_info == "Вакансии":
         get_vacancies()
     else:
         get_statistics()
 
 if __name__ == '__main__':
-    stat_vac()
+    stat_vac('agaggrftbvtfgv')
