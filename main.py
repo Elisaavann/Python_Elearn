@@ -15,4 +15,4 @@ def stat_vac():
         get_statistics()
 
 if __name__ == '__main__':
-    stat_vac()
+    stat_vac('pwrefvnmjwr')
